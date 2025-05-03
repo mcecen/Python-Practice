@@ -23,3 +23,11 @@
     Beklenen Çıktı:
     Yanlis karakter girdiniz!
 """
+
+kelime  = input("Lütfen kelime giriniz: ")
+ilk_harf = kelime[0]
+
+if ilk_harf in ["a","e","i","o","u"]:
+    print("Girilen kelimenin ilk harfi sesli harftir")
+else:
+    print("Girilen kelimenin ilk harfi sessiz harftir")

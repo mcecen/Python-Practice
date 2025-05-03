@@ -19,3 +19,9 @@
 
     ugly number
 """
+
+sayi = int(input("Lütfen sayi giriniz: "))
+if (sayi == 1 or sayi%2 ==0 or sayi%3 ==0 or sayi%5 ==0):
+    print("Girilen sayi ugly sayidir")
+else:
+    print("Girilen sayi ugly degildir")
