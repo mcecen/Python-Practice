@@ -1,5 +1,5 @@
 """
-    2 farklı String'i  ucuca ekleyen Java Kodunu yazınız.
+    2 farklı String'i  ucuca ekleyen Kodu yazınız.
 
     Test Data:
     str1: Java is

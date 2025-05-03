@@ -1,5 +1,5 @@
 """
-    1 den 10 a kadar her satırda bir artırarak aşağıdaki şekli oluşturan Java kodunu yazınız.
+    1 den 10 a kadar her satırda bir artırarak aşağıdaki şekli oluşturan kodu yazınız.
 
      Beklenen çıltı:
 

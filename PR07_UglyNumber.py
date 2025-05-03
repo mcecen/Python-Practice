@@ -1,7 +1,7 @@
 """
     Ugly Number:
 
-    Girilen bir sayının  ugly number olup olmadığını kontrol etmek için bir Java programı yazın.
+    Girilen bir sayının  ugly number olup olmadığını kontrol etmek için bir program yazın.
 
 
     Sayı sisteminde,  ugly number  sadece asal faktörleri carpanlari 2, 3 veya 5 olan pozitif sayılardan olusur...

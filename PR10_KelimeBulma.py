@@ -1,5 +1,5 @@
 """
-    Kullanıcıdan alınan String kümesi içerisinde aranan String i bulan Java Kodunu yazınız.
+    Kullanıcıdan alınan String kümesi içerisinde aranan String i bulan Kodu yazınız.
 
     Test Data:
     Java is easy
