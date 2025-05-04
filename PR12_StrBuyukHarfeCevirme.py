@@ -1,9 +1,13 @@
 """
- Kullanıcının girdiği String değerlerini büyük harfe çeviren Java kodunu yazınız.
+ Kullanıcının girdiği String değerlerini büyük harfe çeviren Python kodunu yazınız.
 
     Test Data:
-    Java is fun
+    Python is fun
 
     Beklenen Sonuç:
-    JAVA IS FUN
+    PYTHON IS FUN
 """
+
+kelime = input("Kelime: ")
+yeni_kelime = kelime.upper()
+print(yeni_kelime)

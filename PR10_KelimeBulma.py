@@ -2,7 +2,7 @@
     Kullanıcıdan alınan String kümesi içerisinde aranan String i bulan Kodu yazınız.
 
     Test Data:
-    Java is easy
+    Python is easy
 
     Aranan String: is
 
@@ -13,3 +13,10 @@
 
     Beklenen Çıktı:False
 """
+
+data = "Python is easy"
+aranacak_kelime = input("Aranacak kelimeyi giriniz: ")
+if aranacak_kelime in data:
+    print("Aradığınız", aranacak_kelime, "kelimesi",data,"içerisinde mevcut")
+else:
+    print("Aradığınız kelime mevcut değil")

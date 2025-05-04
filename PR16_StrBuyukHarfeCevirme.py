@@ -2,8 +2,11 @@
 Girilen stringdeki tüm karakterleri büyük harfe dönüştürmek için bir Java programı yazın.
 
     Test Data:
-    java is fun
+    Python is fun
 
-    Beklenen Çıktı:
-    JAVA IS FUN
+    Beklenen Sonuç:
+    PYTHON IS FUN
 """
+kelime = input("Kelime: ")
+yeni_kelime = kelime.upper()
+print(yeni_kelime)

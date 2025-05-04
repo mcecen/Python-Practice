@@ -10,3 +10,14 @@ RG01_BasamakDegerleriToplami
     */
 """
 
+# Kullanıcıdan sayı al
+sayi = int(input("Bir sayı girin: "))
+
+# Basamakların toplamını hesapla
+toplam = 0
+for basamak in str(sayi):
+    toplam += int(basamak)
+
+# Sonucu yazdır
+print("Basamakların toplamı:", toplam)
+
