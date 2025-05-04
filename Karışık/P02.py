@@ -5,6 +5,9 @@ Suppose the following input is supplied to the program:
 8
 Then, the output should be:
 40320
+
+Hints:
+In case of input data being supplied to the question, it should be assumed to be a console input.
 """
 sayi = int(input("Sayi giriniz: "))
 def faktoriyel(sayi):
