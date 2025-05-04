@@ -37,8 +37,6 @@ sehirler3 = sehirler.copy()
 sehirler2 = sehirler
 sehirler2[0]="İzmir"
 
-
-
 print(sehirler2)
 print(sehirler)
 print(sehirler3)
