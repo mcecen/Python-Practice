@@ -1,6 +1,6 @@
 # Giriş ekranı
 print("=" * 50)
-print("📋 KULLANICI BİLGİ SİSTEMİ".center(50))
+print(" KULLANICI BİLGİ SİSTEMİ".center(50))
 print("=" * 50)
 
 # input() kullanarak kullanıcıdan bilgi alalım
