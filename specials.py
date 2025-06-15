@@ -1,10 +1,4 @@
 mylist = [1,2,3]
-# myString = 'my string'
-
-# print(len(mylist))
-# print(len(myString))
-# print(type(mylist))
-# print(type(myString))
 
 class Movie():
     def __init__(self, title, director, duration):
@@ -24,8 +18,4 @@ class Movie():
 
 m = Movie('film adı','yönetmen adı',120)
 
-# print(str(mylist))
 print(str(m))
-# print(len(mylist))
-# print(len(m))
-
