@@ -20,3 +20,27 @@ Fazla mesaiyi hesaplayan bir program yazınız.
 
     toplam = 536.0
 """
+
+def ucretHesapla(baslangicSaat,bitisSaat,saatlikUcret,mesaiKatSayisi):
+    normalMesaiBitisSaat = 17
+    toplamUcret = 0
+
+    # Normal mesai saati: 9.0 - 17.0 arası
+    if baslangicSaat < normalMesaiBitisSaat:
+        normalSaat = min(bitisSaat, normalMesaiBitisSaat) - baslangicSaat
+        toplamUcret += normalSaat * saatlikUcret
+    else:
+        normalSaat = 0
+
+    #Fazla mesai saati: 17.0 sonrası
+
+    if bitisSaat > normalMesaiBitisSaat:
+        mesaiSaat = bitisSaat - max(baslangicSaat,normalMesaiBitisSaat)
+        toplamUcret += mesaiSaat * saatlikUcret * mesaiKatSayisi
+    else:
+        mesaiSaat = 0
+
+    return toplamUcret
+
+ucret = ucretHesapla(9.0, 20.0, 40.0, 1.8)
+print(f"Toplam kazanç: {ucret}")
