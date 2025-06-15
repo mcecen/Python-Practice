@@ -1,15 +1,6 @@
 # -*- coding: utf-8 -*-
 
-#ogrenci1 = "Engin"
-#ogrenci2 = "Derin"
-#ogrenci3 = "Salih"
-#
-#print(ogrenci1)
-#print(ogrenci2)
-#print(ogrenci3)
-
 ogrenciler = ["Engin","Derin","Salih"]
-
 
 ogrenciler.append("Ahmet")
 #ogrenciler[4] = "Veli"

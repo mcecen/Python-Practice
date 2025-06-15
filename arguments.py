@@ -16,7 +16,7 @@ def displayUser(**args):
 
 displayUser(name= 'Çınar', age = 2, city = 'istanbul')
 displayUser(name= 'Ada', age = 12, city = 'kocaeli', phone = '123132')
-displayUser(name= 'Yiğit', age = 14, city = 'ankara', phone = '123132', email= 'yigit@gmail.com')
+displayUser(name= 'Yiğit', age = 14, city = 'ankara', phone = '123132', email= 'mustafa@deneme.com')
 
 def myFunc(a, b, c, *args, **kwargs):
     print(a)

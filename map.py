@@ -17,10 +17,3 @@ from functools import reduce
 sayilarFaktoriyel = reduce(lambda x,y:x*y,sayilar)
 
 print(sayilarFaktoriyel)
-
-
-
-
-
-
-
