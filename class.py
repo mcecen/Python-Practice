@@ -9,9 +9,6 @@ class Person:
         self.year = year
         print('init metodu çalıştı.')
 
-        # methods
-
-
 # object (instance)
 p1 = Person(name='ali', year= 1990) 
 p2 = Person(name ='yağmur', year = 1995)

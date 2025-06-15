@@ -29,7 +29,7 @@ class Person:
          self.lastName = lastName
          self.age = age
 
-person1 = Person("Engin","Demiroğ",33)
+person1 = Person("Mustafa","Çeçen",30)
 print(person1.firstName)
 
 class Worker(Person):

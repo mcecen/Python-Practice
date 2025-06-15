@@ -1,20 +1,3 @@
-# def changeName(n):
-#     n = 'ada'
-
-# name = 'yiğit'
-
-# changeName(name)
-# print(name)
-
-# def change(n):
-#     n[0] = 'istanbul'
-
-# sehirler = ['ankara','izmir']
-
-# change(sehirler[:])
-
-# print(sehirler)
-
 def add(*params):
     print(type(params))
     sum = 0
@@ -43,4 +26,3 @@ def myFunc(a, b, c, *args, **kwargs):
     print(kwargs)
 
 myFunc(10, 20, 30, 40, 50, 60, 70, key1 = 'value 1', key2 = 'value 2')
-
