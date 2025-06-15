@@ -19,5 +19,5 @@ for basamak in str(sayi):
     toplam += int(basamak)
 
 # Sonucu yazdır
-print("Basamakların toplamı:", toplam)
+print("Basamak sayılarının toplamı:", toplam)
 
