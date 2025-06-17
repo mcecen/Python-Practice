@@ -30,7 +30,6 @@ font_menu = pygame.font.SysFont('corbel', 40)
 font_talimat = pygame.font.SysFont('calibri', 22, italic=True)
 skor_font = pygame.font.SysFont('comicsansms', 35)
 
-
 def skoru_goster(skor, hiz):
     """Anlık skoru ve hızı ekranda gösterir."""
     skor_metni = skor_font.render(f"Skor: {skor}", True, BEYAZ)
@@ -38,18 +37,15 @@ def skoru_goster(skor, hiz):
     ekran.blit(skor_metni, [10, 10])
     ekran.blit(hiz_metni, [GENISLIK - 150, 10])
 
-
 def yilan_ciz(yilan_listesi, yilan_rengi=YESIL):
     """Yılanın her bir parçasını ekrana çizer."""
     for x in yilan_listesi:
         pygame.draw.rect(ekran, yilan_rengi, [x[0], x[1], BLOK_BOYUTU, BLOK_BOYUTU])
 
-
 def metin_nesnesi(text, font, color):
     """Verilen metni render eder."""
     textSurface = font.render(text, True, color)
     return textSurface, textSurface.get_rect()
-
 
 def mesaj_goster(text, renk, y_offset=0, boyut='buyuk'):
     """Ekrana ortalanmış mesaj gösterir (Oyun sonu ekranı için)."""
@@ -61,7 +57,6 @@ def mesaj_goster(text, renk, y_offset=0, boyut='buyuk'):
     TextSurf, TextRect = metin_nesnesi(text, font, renk)
     TextRect.center = ((GENISLIK / 2), (YUKSEKLIK / 2) + y_offset)
     ekran.blit(TextSurf, TextRect)
-
 
 def baslangic_ekrani():
     """Daha görsel ve etkileşimli başlangıç menüsü."""
@@ -135,7 +130,6 @@ def baslangic_ekrani():
 
         pygame.display.update()
         saat.tick(15)  # Menü animasyon hızı
-
 
 def oyun_dongusu(baslangic_hizi):
     """Ana oyun döngüsü."""
@@ -232,7 +226,6 @@ def oyun_dongusu(baslangic_hizi):
 
     pygame.quit()
     sys.exit()
-
 
 # Ana program döngüsü
 if __name__ == "__main__":
