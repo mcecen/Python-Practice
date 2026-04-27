@@ -1,12 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sun Jul 30 20:18:07 2023
-
-@author: MUSTAFA
-"""
-#%%Example-1 --> Kaçı dizili cümle yazdırma
-
-print("Twinkle, twinkle, little star,\n","\t\tHow I wonder what you are!\n","\t\t\tUp above the world so high,\n","\t\t\tLike a diamond in the sky.\n","Twinkle, twinkle, little star,\n","\t\tHow I wonder what you are") 
      
 #%%Example-2 --> Daire Alanı Hesaplama
 
