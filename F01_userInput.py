@@ -35,13 +35,13 @@ print("{:<15}: {:,.2f} ₺".format("Net Maaş", net_maas))
 print("=" * 50)
 
 # C. print() ile sep ve end parametreleri
-print("\n🖨️ Örnek: print() ile sep ve end kullanımı")
+print("\n Örnek: print() ile sep ve end kullanımı")
 print("Ad", "Soyad", "Yaş", sep=" | ", end=" => ")
 print(ad, soyad, yas, sep=" - ")
 
 # D. Çok satırlı açıklama metni (triple quote)
 print("""
-📌 AÇIKLAMA:
+AÇIKLAMA:
 - Bu sistem, girilen bilgileri biçimlendirerek raporlar.
 - Sayılar para birimi gibi yazılır (₺, %).
 - Metinler hizalanır: sola, sağa, ortalanır.
@@ -49,14 +49,14 @@ print("""
 """)
 
 # E. Sayı formatları: Onluk, yüzde, binlik
-print("📐 Sayı Biçimlendirme Örnekleri:")
+print(" Sayı Biçimlendirme Örnekleri:")
 deger = 1234567.89123
 print("Ondalık   : {:.2f}".format(deger))
 print("Yüzde     : {:.1%}".format(0.175))   # 17.5%
 print("Binlik    : {:,}".format(9876543))   # 9,876,543
 
 # F. Kullanıcı tablosu (sadece görsel amaçlı)
-print("\n📊 Kullanıcı Tablosu")
+print("\n Kullanıcı Tablosu")
 print("-" * 50)
 print("{:<15} {:<15} {:>10}".format("Ad", "Soyad", "Maaş (₺)"))
 print("{:<15} {:<15} {:>10,.2f}".format(ad.capitalize(), soyad.capitalize(), maas))
